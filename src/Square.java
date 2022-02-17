@@ -1,6 +1,6 @@
 
 public final class Square extends Rectangle {
-    public Square(double len){
-        super(len,len);
+    public Square(int x, int y, double len){
+        super(x, y, len,len);
     }
 }

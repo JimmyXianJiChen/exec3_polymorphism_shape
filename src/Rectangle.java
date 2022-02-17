@@ -1,8 +1,8 @@
-import java.text.DecimalFormat;
-
 public class Rectangle extends Shape{
-    private double h, w;
-    public Rectangle(double height, double width){
+    private final double h, w;
+    public Rectangle(int x, int y, double height, double width){
+        this.x = x;
+        this.y = y;
         this.h = height;
         this.w = width;
     }
