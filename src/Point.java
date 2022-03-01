@@ -1,5 +1,9 @@
 public abstract class Point {
     protected int x,y;
-    protected abstract int getX();
-    protected abstract int getY();
+    protected int getX(){
+        return this.x;
+    }
+    protected int getY(){
+        return this.y;
+    }
 }
