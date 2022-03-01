@@ -1,5 +1,4 @@
 import java.text.DecimalFormat;
-import java.util.Comparator;
 
 public abstract class Shape extends Point{
     abstract protected double area();
