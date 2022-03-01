@@ -155,13 +155,13 @@ public class Main {
                     System.out.println("The distance between these two shapes: "+computeDistance(arr[index], arr[index1]));
                 }
                 case 7->{
-                    System.out.println("Please enter the x coordinate of the first point:");
+                    System.out.println("Please enter the x coordinate of the top left point:");
                     pt1_x = sc.nextInt();
-                    System.out.println("Please enter the y coordinate of the first point:");
+                    System.out.println("Please enter the y coordinate of the top left point:");
                     pt1_y = sc.nextInt();
-                    System.out.println("Please enter the x coordinate of the second point:");
+                    System.out.println("Please enter the x coordinate of the bottom right point:");
                     pt2_x = sc.nextInt();
-                    System.out.println("Please enter the y coordinate of the second point:");
+                    System.out.println("Please enter the y coordinate of the bottom right point:");
                     pt2_y = sc.nextInt();
                     sc.nextLine();
                     printAllShapesInRange(pt1_x,pt1_y, pt2_x, pt2_y, arr, arrLen);
